@@ -1,0 +1,22 @@
+﻿生成启动时间为 2023/9/20 20:19:34。
+     1>项目“D:\代码\20230920作业1\20230920作业1\20230920作业1.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\20230920作业1.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\实用软件\vc\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "俩数取大.cpp"
+         俩数取大.cpp
+     1>d:\代码\20230920作业1\20230920作业1\俩数取大.cpp(8): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\实用软件\vc\vc\include\stdio.h(304) : 参见“scanf”的声明
+       Link:
+         D:\实用软件\vc\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\代码\20230920作业1\Debug\20230920作业1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\20230920作业1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\代码\20230920作业1\Debug\20230920作业1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\代码\20230920作业1\Debug\20230920作业1.lib" /MACHINE:X86 "Debug\俩数取大.obj"
+         20230920作业1.vcxproj -> D:\代码\20230920作业1\Debug\20230920作业1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\代码\20230920作业1\Debug\20230920作业1.exe;#1" /manifest "Debug\20230920作业1.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Debug\20230920作业1.unsuccessfulbuild”。
+         正在对“Debug\20230920作业1.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\代码\20230920作业1\20230920作业1\20230920作业1.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.03
