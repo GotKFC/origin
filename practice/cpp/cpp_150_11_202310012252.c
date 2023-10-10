@@ -1,13 +1,14 @@
 #include<stdio.h>
-#include<string.h>
 int main(void)
 {
-	char num[100];
-	int i;
-	printf("请输入八个数:\n");
-	scanf("%s",num);
-	printf("您输入的八个数为：%s\n",num);
-	for (i = strlen(num); i >= 0; i--)
-		printf("%c",num[i]);
+	int a[8];
+	
+	printf("Please enter eigth counts:");
+	for (int i = 0; i < 8; i++)
+		scanf("%d",&a[i]);
+	printf("这八个数的倒叙是：");
+	for (int i = 7; i >= 1; i--)
+		printf("  %d",a[i]);
 	return 0;
 }
+
